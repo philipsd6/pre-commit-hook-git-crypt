@@ -1,0 +1,6 @@
+---
+- id: check-git-crypt-status
+  name: Check git-crypt status
+  description: Prevent accidentally adding unencrypted files with git-crypt
+  entry: check-git-crypt-status
+  language: python
