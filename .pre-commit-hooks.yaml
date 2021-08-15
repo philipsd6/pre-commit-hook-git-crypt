@@ -4,3 +4,4 @@
   description: Prevent accidentally adding unencrypted files with git-crypt
   entry: check-git-crypt-status
   language: python
+  require_serial: true
