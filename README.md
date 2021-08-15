@@ -17,3 +17,5 @@ Add this to your `.pre-commit-config.yaml`
 #### `check-git-crypt-status`
 Prevent unencrypted files from being committed accidentally.
   - Limits checked files to those indicated as staged for addition by git.
+  - **Note:** The hook will cause an error if you try to commit empty files. See
+    [pre-commit/pre-commit#776](https://github.com/pre-commit/pre-commit/issues/776).
