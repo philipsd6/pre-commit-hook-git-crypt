@@ -24,3 +24,11 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 check-git-crypt-status = "pre_commit_hook_git_crypt.check_git_crypt_status:main"
+
+[tool.towncrier]
+package = "pre_commit_hook_git_crypt"
+package_dir = "src"
+single_file = true  # if false, filename is formatted like `title_format`.
+filename = "CHANGELOG.md"
+directory = "changelog/"
+all_bullets = true  # make all fragments bullet points
