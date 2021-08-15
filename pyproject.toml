@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pre-commit-hook-git-crypt"
-version = "1.0.0"
+version = "1.0.1"
 description = "A pre-commit hook to avoid accidentally committing unencrypted files"
 authors = ["Philip Douglass <philip@philipdouglass.com>"]
 license = "MIT"

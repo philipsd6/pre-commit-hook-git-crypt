@@ -8,7 +8,7 @@ Add this to your `.pre-commit-config.yaml`
 
 ```yaml
 - repo: https://github.com/philipsd6/pre-commit-hook-git-crypt
-  rev: v1.0.0  # Use the ref you want to point at
+  rev: v1.0.1  # Use the ref you want to point at
   hooks:
     - id: check-git-crypt-status
 ```
